@@ -58,6 +58,14 @@ the larger commercial opportunity is basket size rather than any particular bund
    catalogue.
 4. **Do not build bundles on high-lift, low-support rules.** They are most likely chance patterns.
 
+## Deliverables
+
+| File | Description |
+|---|---|
+| [`notebooks/market_basket_analysis.ipynb`](notebooks/market_basket_analysis.ipynb) | Complete analysis with outputs |
+| [`reports/Market_Basket_Results.xlsx`](reports/Market_Basket_Results.xlsx) | Excel workbook: summary sheet with key findings, plus all subcategory pairs and the robust Apriori rules |
+| [`reports/figures/`](reports/figures), [`reports/tables/`](reports/tables) | Charts (PNG) and result tables (CSV) |
+
 ## Repository Structure
 
 ```text
@@ -65,9 +73,10 @@ market-basket-analysis/
 ├── data/                    EcomSales.csv, Product.csv and data dictionary
 ├── notebooks/               market_basket_analysis.ipynb (analysis with outputs)
 ├── reports/
+│   ├── Market_Basket_Results.xlsx  (Excel results workbook)
 │   ├── figures/             basket size, top pairs, lift heatmap, support vs lift
 │   └── tables/              subcategory pairs and robust rules (CSV)
-├── scripts/run_notebook.py  re-executes the notebook
+├── scripts/                 run_notebook.py, build_excel_report.py
 └── requirements.txt
 ```
 
@@ -75,7 +84,8 @@ market-basket-analysis/
 
 ```bash
 pip install -r requirements.txt
-python scripts/run_notebook.py
+python scripts/run_notebook.py        # re-run the analysis, refresh figures and tables
+python scripts/build_excel_report.py  # rebuild the Excel workbook
 ```
 
 ## Data
