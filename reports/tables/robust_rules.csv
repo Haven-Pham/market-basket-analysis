@@ -1,0 +1,45 @@
+rule,orders,support,confidence,lift
+"bath oils, bubbles and soaks + body moisturizers  ->  Nail care products",141,0.005480410447761194,0.275390625,1.3830275229357798
+"Nail care products  ->  bath oils, bubbles and soaks + body moisturizers",141,0.005480410447761194,0.027522935779816512,1.3830275229357798
+"bath oils, bubbles and soaks  ->  Nail care products + body moisturizers",141,0.005480410447761194,0.03712480252764613,1.3782783830177194
+"Nail care products + body moisturizers  ->  bath oils, bubbles and soaks",141,0.005480410447761194,0.20346320346320348,1.3782783830177194
+"body moisturizers  ->  Nail care products + bath oils, bubbles and soaks",141,0.005480410447761194,0.03810810810810811,1.3693371583874376
+"Nail care products + bath oils, bubbles and soaks  ->  body moisturizers",141,0.005480410447761194,0.19692737430167598,1.3693371583874376
+Nail care products  ->  hand creams + shampoos and conditioners,132,0.005130597014925373,0.025766152644934606,1.3258231504977551
+hand creams + shampoos and conditioners  ->  Nail care products,132,0.005130597014925373,0.264,1.3258231504977551
+Nail care products + shampoos and conditioners  ->  hand creams,132,0.005130597014925373,0.1927007299270073,1.3115884602015988
+hand creams  ->  Nail care products + shampoos and conditioners,132,0.005130597014925373,0.03492063492063492,1.3115884602015988
+"Nail care products + shampoos and conditioners  ->  bath oils, bubbles and soaks",130,0.005052860696517413,0.18978102189781024,1.2855940314341394
+"bath oils, bubbles and soaks  ->  Nail care products + shampoos and conditioners",130,0.005052860696517413,0.034228541337546076,1.2855940314341392
+"bath oils, bubbles and soaks  ->  Nail care products + hand creams",129,0.0050139925373134326,0.033965244865718794,1.2448117092666855
+"Nail care products + hand creams  ->  bath oils, bubbles and soaks",129,0.0050139925373134326,0.18376068376068375,1.2448117092666853
+"bath oils, bubbles and soaks + hand creams  ->  Nail care products",129,0.0050139925373134326,0.2443181818181818,1.2269799300835802
+"Nail care products  ->  bath oils, bubbles and soaks + hand creams",129,0.0050139925373134326,0.02518055826664064,1.2269799300835802
+"Nail care products + bath oils, bubbles and soaks  ->  hand creams",129,0.0050139925373134326,0.18016759776536312,1.2262835860601222
+"hand creams  ->  Nail care products + bath oils, bubbles and soaks",129,0.0050139925373134326,0.034126984126984124,1.2262835860601222
+shampoos and conditioners  ->  Nail care products + hand creams,132,0.005130597014925373,0.0318994683421943,1.1691018824899928
+Nail care products + hand creams  ->  shampoos and conditioners,132,0.005130597014925373,0.18803418803418803,1.1691018824899926
+"Nail care products  ->  bath oils, bubbles and soaks + shampoos and conditioners",130,0.005052860696517413,0.02537575639273863,1.1413766791475166
+"bath oils, bubbles and soaks + shampoos and conditioners  ->  Nail care products",130,0.005052860696517413,0.2272727272727273,1.1413766791475166
+"shampoos and conditioners  ->  Nail care products + bath oils, bubbles and soaks",130,0.005052860696517413,0.03141614306428227,1.1288750401646008
+"Nail care products + bath oils, bubbles and soaks  ->  shampoos and conditioners",130,0.005052860696517413,0.18156424581005587,1.1288750401646006
+fragrances  ->  Nail care products,130,0.005052860696517413,0.21702838063439067,1.0899289824246736
+Nail care products  ->  fragrances,130,0.005052860696517413,0.02537575639273863,1.0899289824246734
+hand creams  ->  Lipsticks,170,0.006607587064676617,0.04497354497354498,1.0723627109169278
+Lipsticks  ->  hand creams,170,0.006607587064676617,0.15755329008341057,1.0723627109169278
+Lipsticks  ->  face moisturizing products,132,0.005130597014925373,0.12233549582947173,1.0558361746731462
+face moisturizing products  ->  Lipsticks,132,0.005130597014925373,0.04428044280442804,1.055836174673146
+"brushes and applicators  ->  candles, sprays, diffusers",203,0.00789023631840796,0.08336755646817248,1.0447542585548668
+"candles, sprays, diffusers  ->  brushes and applicators",203,0.00789023631840796,0.09887968826108134,1.0447542585548668
+"bath oils, bubbles and soaks  ->  Accessories",374,0.014536691542288557,0.09847288046340177,1.0434556295561783
+"Accessories  ->  bath oils, bubbles and soaks",374,0.014536691542288557,0.15403624382207579,1.0434556295561783
+hair colors and toners  ->  brushes and applicators,238,0.009250621890547263,0.09802306425041186,1.0357032431353579
+brushes and applicators  ->  hair colors and toners,238,0.009250621890547263,0.097741273100616,1.0357032431353577
+"hair colors and toners  ->  candles, sprays, diffusers",200,0.00777363184079602,0.08237232289950577,1.032282086487328
+"candles, sprays, diffusers  ->  hair colors and toners",200,0.00777363184079602,0.0974184120798831,1.0322820864873279
+"bath oils, bubbles and soaks  ->  face masks and exfoliators",444,0.017257462686567165,0.11690363349131122,1.0300331104330325
+"face masks and exfoliators  ->  bath oils, bubbles and soaks",444,0.017257462686567165,0.15205479452054796,1.0300331104330325
+Lipsticks  ->  Nail care products,221,0.008589863184079602,0.20481927710843373,1.0286141638582438
+Nail care products  ->  Lipsticks,221,0.008589863184079602,0.04313878586765567,1.0286141638582438
+face moisturizing products  ->  brushes and applicators,283,0.010999689054726368,0.09493458570949345,1.0030706452295062
+brushes and applicators  ->  face moisturizing products,283,0.010999689054726368,0.11622176591375769,1.0030706452295062
